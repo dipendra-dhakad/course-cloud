@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 html , body{
-    overflow: hidden;
+    /* overflow: hidden; */
+      overflow-x: hidden;
+}
+
+.homepage_bg{
+   background:url("../src/assets/Images/bghome.svg") ;
 }
